@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import image from "/assets/image.jpg";
+// import image from "/image.jpg";
 import "./image.css";
 
 export default function Image() {
@@ -22,7 +22,7 @@ export default function Image() {
       <img
         ref={imageRef}
         className="zoomable-image"
-        src={image}
+        src={"/assets/Image.jpg"}
         alt="image"
         onMouseOver={mouseOver}
         onMouseOut={handleMouseOut}
