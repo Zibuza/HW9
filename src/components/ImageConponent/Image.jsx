@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import image from "../../assets/image.jpg";
+import image from "/assets/image.jpg";
 import "./image.css";
 
 export default function Image() {
